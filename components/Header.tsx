@@ -1,5 +1,6 @@
 
 import React from 'react';
+import rokuLogo from '../roku.PNG';
 
 interface HeaderProps {
   onNavigateLanding: () => void;
@@ -12,13 +13,11 @@ const Header: React.FC<HeaderProps> = ({ onNavigateLanding }) => {
         className="flex items-center gap-2 cursor-pointer"
         onClick={onNavigateLanding}
       >
-        <div className="bg-black rounded-full w-10 h-10 flex items-center justify-center">
-            <svg viewBox="0 0 100 100" className="w-6 h-6 fill-white">
-                <circle cx="50" cy="50" r="45" stroke="white" strokeWidth="8" fill="none" />
-                <circle cx="50" cy="50" r="15" fill="white" />
-            </svg>
-        </div>
-        <span className="text-2xl font-black tracking-tighter">ROKU</span>
+        <img
+          src={rokuLogo}
+          alt="ROKU"
+          className="h-9 md:h-10 w-auto"
+        />
       </div>
       
       <button className="bg-[#FFD600] text-black font-black px-4 py-2 rounded-lg text-sm md:text-base brutalist-border brutalist-button uppercase italic tracking-tighter transition-all">

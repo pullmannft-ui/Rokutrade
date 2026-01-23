@@ -1,5 +1,6 @@
 
 import React from 'react';
+import soonLogo from '../soon.PNG';
 
 interface LandingProps {
   onApply: () => void;
@@ -12,21 +13,11 @@ const Landing: React.FC<LandingProps> = ({ onApply }) => {
       <div className="text-center z-10 max-w-4xl mx-auto space-y-8">
         {/* SOON Logo */}
         <div className="relative inline-block">
-          <h1 className="text-[80px] md:text-[200px] leading-none font-black tracking-tighter flex items-center justify-center drop-shadow-[0_8px_0px_rgba(0,0,0,1)]">
-            S<span className="relative flex items-center justify-center">
-              O
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 md:w-20 md:h-20 bg-white rounded-full flex items-center justify-center border-4 border-black">
-                 <div className="w-4 h-4 md:w-10 md:h-10 bg-black rounded-full"></div>
-              </div>
-            </span>
-            <span className="relative flex items-center justify-center">
-              O
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 md:w-20 md:h-20 bg-white rounded-full flex items-center justify-center border-4 border-black">
-                 <div className="w-4 h-4 md:w-10 md:h-10 bg-black rounded-full"></div>
-              </div>
-            </span>
-            N
-          </h1>
+          <img
+            src={soonLogo}
+            alt="SOON"
+            className="h-24 md:h-48 w-auto drop-shadow-[0_8px_0px_rgba(0,0,0,1)]"
+          />
         </div>
 
         <div className="space-y-4">
