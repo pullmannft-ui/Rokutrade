@@ -16,7 +16,7 @@ const Landing: React.FC<LandingProps> = ({ onApply }) => {
           <img
             src={soonLogo}
             alt="SOON"
-            className="h-24 md:h-48 w-auto drop-shadow-[0_8px_0px_rgba(0,0,0,1)]"
+            className="h-32 sm:h-40 md:h-48 w-auto drop-shadow-[0_8px_0px_rgba(0,0,0,1)]"
           />
         </div>
 

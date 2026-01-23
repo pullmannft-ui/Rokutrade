@@ -20,9 +20,14 @@ const Header: React.FC<HeaderProps> = ({ onNavigateLanding }) => {
         />
       </div>
       
-      <button className="bg-[#FFD600] text-black font-black px-4 py-2 rounded-lg text-sm md:text-base brutalist-border brutalist-button uppercase italic tracking-tighter transition-all">
+      <a
+        href="https://t.me/RokuTradeBot"
+        target="_blank"
+        rel="noreferrer"
+        className="bg-[#FFD600] text-black font-black px-4 py-2 rounded-lg text-sm md:text-base brutalist-border brutalist-button uppercase italic tracking-tighter transition-all inline-block"
+      >
         Get Your Referral Code
-      </button>
+      </a>
     </header>
   );
 };
