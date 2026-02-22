@@ -199,7 +199,7 @@ const WhitelistForm: React.FC = () => {
                  </div>
                  <div className="flex flex-col">
                    <span className="font-black text-lg italic uppercase leading-none">Like & RT Last Post</span>
-                   <a href="https://x.com/Rokutrade" target="_blank" className="text-[10px] text-blue-600 underline font-black uppercase italic mt-1">Go to Post</a>
+                   <a href="https://x.com/RokuTrade/status/2025545631167852592?s=20" target="_blank" className="text-[10px] text-blue-600 underline font-black uppercase italic mt-1">Go to Post</a>
                  </div>
                </div>
 
